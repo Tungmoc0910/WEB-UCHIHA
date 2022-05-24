@@ -1,0 +1,69 @@
+@media(min-width:1024px){
+
+}
+
+@media(min-width:740px ) and (max-width:1023px ){
+
+}
+
+
+@media(max-width:740px){
+    .m-full-width,
+    .m-col-full{
+        width:100% ;
+        
+    }
+    #header{
+        overflow: hidden;
+    }
+    #header .mobile-menu{
+        display: block;
+    }
+    #header .search-button{
+        display: none;
+    }
+    #slide .text-heading {
+        
+        margin-bottom: 5px;
+    }
+    #slide .textdiscription {
+        font-size: 15px;
+        padding:0 70px;
+        margin-bottom: -30px;
+    }
+    #nav{
+        display:block;
+    }
+    #nav >li {
+        display: block;
+    }
+    #nav >li:first-child{
+        display: inline-block
+    }
+    #nav li a {
+        padding:1px 24px;
+    }
+    
+    #nav .subnav{
+        position: initial;
+        background-color: #333;
+    }
+    #nav .subnav a{
+        color:#fff;
+        padding:6px 40px;
+    }
+  
+    #content .menber-item{
+        width:100%;
+        margin-top:30px;
+    }
+    #content .menber-img{
+        width:60% ;
+    }
+    #content .menber-name {
+       
+        margin-top: 16px;
+    }
+   
+    
+}   
